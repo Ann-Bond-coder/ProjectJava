@@ -22,6 +22,6 @@ public class RackServiceImpl implements RackService {
 
     @Override
     public Rack inputRack(InputStream inputStream) throws IOException, ClassNotFoundException {
-        return (Rack) ioService.inputRack(inputStream);
+        return ioService.inputRack(inputStream);
     }
 }

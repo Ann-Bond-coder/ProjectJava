@@ -5,9 +5,7 @@ import com.netcracker.edu.inventory.service.ServiceFactory;
 import com.netcracker.edu.inventory.service.impl.ServiceFactoryImpl;
 import com.netcracker.edu.inventory.service.impl.EntityFactoryImpl;
 
-/**
- * Created by makovetskyi on 14.11.17.
- */
+
 public class InventoryFactoryManager {
 
     private static ServiceFactory serviceFactory;
